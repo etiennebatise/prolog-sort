@@ -32,4 +32,4 @@ fusionsort(L, T) :-
     split(L, L1, L2),
     fusionsort(L1, T1),
     fusionsort(L2, T2), 
-    fusionner(T1, T2, T).
+    fusion(T1, T2, T).
